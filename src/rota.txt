@@ -1,0 +1,10 @@
+
+GET http://localhost:4000/ruido
+GET http://localhost:4000/ruido/setor/Sala A
+GET http://localhost:4000/ruido/setor/Sala A/data/2024-10-10
+GET http://localhost:4000/ruido/setor/Sala A/data/2024-10-10/hora/15
+GET http://localhost:4000/ruido/setor/Sala A/data/2024-10-10/hora/15/minuto/30
+GET http://localhost:4000/ruido/2024-10-10
+GET http://localhost:4000/ruido/2024-10-10/15
+GET http://localhost:4000/ruido/2024-10-10/15/30
+GET http://localhost:4000/setores
