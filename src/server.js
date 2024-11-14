@@ -10,11 +10,7 @@ const port = 4000;
 const db = ConexaoFirebase();
 const ruido = db.collection('ruido');
 
-<<<<<<< HEAD
 app.post('/api/ruido', async (req, res) => {
-=======
-app.post('/ruido', async (req, res) => {
->>>>>>> 302855bacc7c8594a57e44c7daa41592656f6c3c
   const { setor, Data, DB, lat, lng } = req.body;
 
   // Validação básica dos dados recebidos
