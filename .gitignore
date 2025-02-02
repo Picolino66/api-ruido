@@ -105,10 +105,6 @@ dist
 .vercel
 
 package-lock.json
-"serviceAccountKey.json"
+
 serviceAccountKey.json
-src/config.js.old
-<<<<<<< HEAD
-src/API.OLD.js
-=======
->>>>>>> 302855bacc7c8594a57e44c7daa41592656f6c3c
+src/config.js
